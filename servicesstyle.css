@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: white;
+    
+    
+}
+a{
+    color:white;
+}
+body h1{
+    text-align: center;
+}
+nav{
+    font-family: Barlow-Condensed;
+    font-size: large;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    height: 2.5em;
+    background-color:black;
+    color:white;
+    justify-content: end;
+    
+    
+}
+nav ul li{
+    margin:5px;
+    padding: 0 10px;}
+
+.container{
+    display:grid;
+    gap: 10%;
+	grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+     
+     color:white;
+     font-family: cursive;
+     font-size:1.5em;
+     padding: 0.1em;
+     
+
+}
+.plan{
+    height:15em;
+    width:12em;
+    text-align: center;
+    background-color: black;
+    border: 2px solid white;
+    margin:1em;
+    padding:0.5em;
+    background-image:url(Image.png);
+    background-position: center;
+    
+}
+.plan ul{
+    margin-top:5em;
+    font-size: 0.6em;
+}
+
+.button{
+    font-size:1.2em;
+    padding:5px;
+    border-radius: 50%;
+    cursor:pointer;
+    position: relative;
+    top:75px;
+    left: 0px;
+    background-image: linear-gradient(rgb(235, 15, 15),rgb(190, 134, 30));
+    transition: all 2s linear;
+}
+
+
+.plan:hover {
+    height:15.5em;
+    width:12.5em;
+}
+

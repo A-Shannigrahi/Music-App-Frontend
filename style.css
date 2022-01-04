@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    
+}
+
+h1{
+    color:goldenrod;
+    text-align: center;
+}
+
+.container{
+    height:40%;
+    width: 50%;
+    background-color: honeydew;
+    margin:auto;
+    color:goldenrod;
+    font-size: cursive;
+    font-size:3em;
+    background-image: url(StayTuned.png);
+    background-size: 100% 100%;
+}
+.button_container{
+    height:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    font-size: 1.5em;
+    font-family: cursive;
+    border-radius: 50%;
+    background-color: silver;
+    cursor:pointer;
+}
+a{
+    color:black;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        
+        width: 100%;
+        
+    }
+  }

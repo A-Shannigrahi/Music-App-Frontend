@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,300;1,700;1,800&display=swap');
+
+body{
+    background-color:whitesmoke;
+    
+}
+a{
+    color:white;
+    
+}
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    font-family: Barlow-Condensed;
+    font-size: large;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    height: 2.5em;
+    background-color:black;
+    color:white;
+    
+    
+}
+nav ul li{
+    margin:5px;
+    padding: 0 10px;
+}
+.logo img{
+    height:50px;
+    padding:0px 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.right
+{
+    margin-left:auto;
+}
+
+.container{
+    
+    width:80%;
+    background-color: black;
+    color:white;
+    display: flex;
+    margin: 20px auto;
+    border-radius:25px;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-image: url(Image.png);
+    background-position: right;
+}
+
+
+.player{
+    position:sticky;
+    height:100px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    color:white;
+    align-items: center;
+    flex-direction: column;
+    bottom:0;
+}
+.icons{
+    margin-top:20px;
+}
+#progressbar{
+    width:80vw;
+    cursor:pointer;
+    
+}
+
+.songItem{
+    font-family: cursive;
+    font-size: 1.2em;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+    width:75%;
+    background-color: white;
+    color:black;
+    margin:10px;
+    padding :10px;
+    border-radius: 40px;
+}
+
+.songItem img{
+  height:110%;
+  border-radius: 100%;
+  
+}
+
+.timestamp{
+    margin:0px 20px;
+}
+
+.timestamp i{
+    cursor:pointer;
+}
+
+.songItemContainer{
+    margin-top:120px;
+
+}
+
+.songGif{
+    position:absolute;
+    left:10vh;
+    font-family: cursive;
+}
+.songGif img{
+    opacity:0;
+    transition:opacity 1s;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    nav{
+        font-size: 0.9em;
+    }
+    nav ul{
+        height:3.5em;
+    }
+    .logo{
+        font-size: 1.1em;
+    }
+    .songItemContainer{
+        margin-top:20px;
+    
+    }
+    .songItem{
+        font-size: 0.8em;
+    }
+    .songGif{
+        display:flex;
+        flex-direction: column-reverse;
+        left:0vh;
+        
+    }
+}
